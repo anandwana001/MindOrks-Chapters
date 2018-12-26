@@ -17,6 +17,7 @@ class MainActivity : AppCompatActivity() {
         adapter.addFragment(MindOrksFragment(), "MindOrks")
         adapter.addFragment(GetMeAnAppFragment(), "GetMeAnApp")
         adapter.addFragment(BestContentAppFragment(), "BestContentApp")
+
         viewPager.adapter = adapter
         tabs.setupWithViewPager(viewPager)
     }
