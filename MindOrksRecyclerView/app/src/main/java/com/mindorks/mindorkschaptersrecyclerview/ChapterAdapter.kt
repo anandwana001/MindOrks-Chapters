@@ -8,7 +8,7 @@ import androidx.recyclerview.widget.RecyclerView
 import kotlinx.android.synthetic.main.item_mindorks_chapters.view.*
 
 class ChapterAdapter(private val context: MainActivity, private val chaptersList: ArrayList<String>) :
-    RecyclerView.Adapter<ChapterAdapter.ViewHolder>() {
+        RecyclerView.Adapter<ChapterAdapter.ViewHolder>() {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
         return ViewHolder(LayoutInflater.from(context).inflate(R.layout.item_mindorks_chapters, parent, false))
@@ -28,5 +28,4 @@ class ChapterAdapter(private val context: MainActivity, private val chaptersList
     class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
         val chapterName = view.tvChapterName
     }
-
 }
