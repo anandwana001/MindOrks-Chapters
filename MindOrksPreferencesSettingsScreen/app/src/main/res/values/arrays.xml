@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entries">
+        <item>Android Store</item>
+        <item>Blogs</item>
+        <item>Chapters</item>
+    </string-array>
+
+    <string-array name="entry_values">
+        <item>MindOrks</item>
+        <item>GetMeAnApp</item>
+        <item>BestContentApp</item>
+    </string-array>
+</resources>
