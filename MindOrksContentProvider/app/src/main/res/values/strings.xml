@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">MindOrks ContentProvider</string>
+
+    <string-array name="sentence">
+        <item>Android</item>
+        <item>ContentProvider</item>
+        <item>With</item>
+        <item>MindOrks</item>
+    </string-array>
+
+</resources>
