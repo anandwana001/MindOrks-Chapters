@@ -25,7 +25,6 @@ class MainActivity : AppCompatActivity() {
             GetDataFromDb(this).execute()
         }
     }
-
     private class InsertTask(var context: MainActivity, var chapter: Chapter) : AsyncTask<Void, Void, Boolean>() {
 
         override fun doInBackground(vararg params: Void?): Boolean {
